@@ -1,0 +1,718 @@
+@font-face {
+  font-family: didot;
+  src: url(../fonts/Didot.ttc);
+}
+* {
+  font-family: Helvetica;
+  font-size: 12pt;
+  font-weight: normal;
+  color: #495d63;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 150px fit-content(1100px) 300px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+header {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 40px 50px 0px 50px;
+}
+
+#mytheme-logo-widgets {
+  min-width: 180px;
+}
+
+.burger-menu {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.burger-menu .bar {
+  height: 2.5px;
+  width: 100%;
+  background-color: #67a580;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 20px;
+  font-size: 10pt;
+}
+
+a {
+  color: #495d63 !important;
+  text-decoration: none !important;
+  font-family: didot !important;
+  letter-spacing: 3px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.menu li:hover {
+  color: #67a580;
+  text-decoration: underline;
+}
+
+.menu a:hover {
+  color: #67a580 !important;
+}
+
+.wp-block-search__inside-wrapper {
+  margin-top: 10px;
+}
+
+.wp-block-search__button {
+  margin: 0px;
+}
+
+#wp-block-search__input-1 {
+  border-radius: 50px;
+  background-color: #ededed;
+  border: none;
+}
+
+button.wp-block-search__button {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+}
+
+.search-icon {
+  color: white !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+main {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#main-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaf1 {
+  width: 95%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+img svg {
+  vertical-align: none;
+  float: left;
+}
+
+#square {
+  margin: auto;
+  width: 50%;
+  background-color: #f7f1ed;
+  padding: 50px;
+}
+
+#comillas1 {
+  width: 15%;
+}
+
+#quote {
+  font-family: didot;
+  font-size: 20pt;
+  font-weight: normal;
+  color: #495d63;
+  margin-left: 13%;
+}
+
+#author {
+  font-family: didot;
+  font-size: 14pt;
+  font-weight: normal;
+  color: #495d63;
+  margin-left: 60%;
+  margin-top: 20px;
+}
+
+#arrivals {
+  font-size: 14pt;
+  margin-top: 100px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#new-arrivals-widgets {
+  margin: 50px;
+  padding: 0px 100px 0px 100px !important;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  position: relative !important;
+  font-family: helvetica;
+  font-size: 12pt;
+  font-weight: normal;
+  color: #495d63;
+}
+
+.wp-element-caption {
+  background: none !important;
+}
+
+body .is-layout-flex {
+  flex-wrap: nowrap;
+}
+
+.leaf2 {
+  width: 95%;
+  margin-bottom: 50px;
+  float: right;
+}
+
+#blog-title {
+  font-size: 14pt;
+  margin: 0px 50px 50px 50px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#youtube-widgets {
+  padding: 0px 100px 0px 100px;
+  margin: auto;
+  width: 85%;
+}
+
+body .is-layout-flex {
+  justify-content: center;
+}
+
+strong {
+  font-family: didot;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #67a580;
+}
+
+footer {
+  background-color: #98b6b1;
+}
+
+#mytheme-logo-footer-widgets {
+  min-width: 70px;
+  width: 30%;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+}
+
+#footer-nav {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20%;
+       column-gap: 20%;
+}
+
+.heading-footer {
+  font-size: 13pt;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-footer {
+  color: white;
+}
+
+.list-footer {
+  padding: 0;
+}
+
+#social-media-icons {
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+  margin-top: 90px;
+}
+
+#follow {
+  font-size: 13pt;
+  margin-top: 10px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+main#main-product-page {
+  display: flex;
+  flex-direction: column;
+}
+
+figure {
+  margin-bottom: 50px !important;
+}
+
+h2.wp-block-heading {
+  font-size: 16pt;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+}
+
+.title-tools, .title-pots, h1.wp-block-heading {
+  font-size: 16pt !important;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#gallery-products-fertilisers-gifts-widgets, #gallery-products-pots-widgets, #gallery-products-widgets {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#gallery-products-tools-widgets {
+  margin: auto;
+  width: 68%;
+}
+
+h1.top-title-page {
+  font-family: didot;
+  font-size: 30pt;
+  font-weight: normal;
+  color: #67a580;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#description-about-widgets {
+  margin: auto;
+  width: 35%;
+}
+
+img.wp-image-117 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 11pt;
+  text-align: center;
+}
+
+textarea, select, input {
+  border-radius: 5px;
+  border: solid #495d63 1px;
+}
+
+input {
+  padding: 3px;
+}
+
+input :focus {
+  border: solid #67a580 1.5px;
+}
+
+select {
+  padding: 5px;
+}
+
+#nine {
+  margin-top: 20px;
+}
+
+#ten input {
+  background-color: #67a580;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+img#leaf3 {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#leaf-form {
+  width: 50%;
+}
+
+#description-contact-widgets h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 14pt !important;
+}
+
+span.correct, span.error {
+  padding-top: 10px;
+}
+
+.correct, .error {
+  letter-spacing: 2px;
+  line-height: 1.5px;
+}
+
+.error {
+  color: rgb(194, 73, 73);
+}
+
+.correct {
+  color: #67a580;
+}
+
+@media only screen and (max-width: 1130px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: fit-content(200px) fit-content(1100px) fit-content(300px);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 40px 30px 50px 30px;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  #mytheme-search-widgets {
+    width: 40%;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
+  nav {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+  .menu li {
+    border: #67a580 solid 1px;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+  }
+  .menu li:hover {
+    border: none;
+    background-color: #98b6b1;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: white !important;
+  }
+  .menu a {
+    font-size: 9pt !important;
+  }
+  .menu a:hover {
+    color: #495d63 !important;
+    text-decoration: none;
+  }
+  .menu.active {
+    display: flex;
+  }
+  form .wp-block-search__inside-wrapper {
+    width: 100% !important;
+  }
+  #square {
+    width: 80%;
+  }
+  #comillas1 {
+    width: 12%;
+  }
+  #quote {
+    font-family: didot;
+    font-size: 17pt;
+    font-weight: normal;
+    color: #495d63;
+    margin-left: 12%;
+  }
+  #author {
+    margin-left: 12%;
+  }
+  #new-arrivals-widgets {
+    margin: 50px;
+    padding: 0px 0px 0px 0px !important;
+  }
+  .wp-block-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+    width: 100% !important;
+  }
+  #youtube-widgets {
+    margin: auto;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    -moz-column-gap: 10%;
+         column-gap: 10%;
+  }
+  #mytheme-logo-footer-widgets {
+    min-width: 250px;
+    margin-bottom: 30px;
+    margin: auto;
+  }
+  #footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -moz-column-gap: 20%;
+         column-gap: 20%;
+    margin-top: 40px;
+  }
+  .heading-footer {
+    text-align: center;
+  }
+  .list-footer {
+    text-align: center;
+  }
+  #social-media {
+    margin: auto;
+  }
+  #social-media-icons {
+    margin-top: 40px;
+  }
+  figure {
+    margin-bottom: 0 !important;
+    padding: 10px;
+  }
+  .wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+    max-width: 400px;
+  }
+  body .is-layout-flex {
+    flex-wrap: wrap;
+  }
+  #gallery-products-widgets {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  h2.wp-block-heading {
+    padding: 50px 20px 10px 20px;
+  }
+  #gallery-products-fertilisers-gifts-widgets {
+    margin-bottom: 50px;
+  }
+  #description-about-widgets {
+    margin-bottom: 50px;
+    width: 70%;
+  }
+  h1.top-title-page {
+    width: 70%;
+    margin: auto;
+  }
+  #leaf3 {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: fit-content(200px) fit-content(1100px) fit-content(300px);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 40px 30px 50px 30px;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  #mytheme-search-widgets {
+    width: 100%;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
+  nav {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+  .menu li {
+    border: #67a580 solid 1px;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+  }
+  .menu li:hover {
+    border: none;
+    background-color: #98b6b1;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: white !important;
+  }
+  .menu a {
+    font-size: 9pt !important;
+  }
+  .menu a:hover {
+    color: #495d63 !important;
+    text-decoration: none;
+  }
+  .menu.active {
+    display: flex;
+  }
+  form .wp-block-search__inside-wrapper {
+    width: 100% !important;
+  }
+  #square {
+    width: 80%;
+  }
+  #comillas1 {
+    width: 12%;
+  }
+  #quote {
+    font-family: didot;
+    font-size: 17pt;
+    font-weight: normal;
+    color: #495d63;
+    margin-left: 12%;
+  }
+  #author {
+    margin-left: 12%;
+  }
+  #new-arrivals-widgets {
+    margin: 50px;
+    padding: 0px 0px 0px 0px !important;
+  }
+  .wp-block-gallery {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+  }
+  figure.wp-block-gallery.has-nested-images {
+    align-items: center;
+  }
+  .wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+    width: 100% !important;
+  }
+  #youtube-widgets {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    width: 85%;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    -moz-column-gap: 10%;
+         column-gap: 10%;
+  }
+  #mytheme-logo-footer-widgets {
+    min-width: 250px;
+    margin-bottom: 30px;
+    margin: auto;
+  }
+  #footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -moz-column-gap: 20%;
+         column-gap: 20%;
+    margin-top: 40px;
+  }
+  .heading-footer {
+    text-align: center;
+  }
+  .list-footer {
+    text-align: center;
+  }
+  #social-media {
+    margin: auto;
+  }
+  #social-media-icons {
+    margin-top: 40px;
+  }
+  figure {
+    margin-bottom: 0 !important;
+    padding: 10px;
+  }
+  h2.wp-block-heading {
+    padding: 50px 20px 10px 20px;
+  }
+  #description-contact-widgets, #description-about-widgets, #gallery-products-fertilisers-gifts-widgets, #gallery-products-tools-widgets, #gallery-products-pots-widgets, #gallery-products-widgets {
+    margin: auto;
+    width: 80%;
+  }
+  #gallery-products-fertilisers-gifts-widgets {
+    margin-bottom: 50px;
+  }
+  #description-about-widgets {
+    margin-bottom: 50px;
+  }
+  h1.top-title-page {
+    margin: auto;
+    width: 80%;
+  }
+  #leaf-form {
+    width: 67%;
+  }
+  #leaf3 {
+    margin-top: 40px;
+    width: 95%;
+  }
+}/*# sourceMappingURL=style.css.map */

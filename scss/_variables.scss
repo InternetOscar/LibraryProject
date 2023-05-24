@@ -1,0 +1,47 @@
+@font-face {
+    font-family: didot;
+    src: url(../fonts/Didot.ttc);
+}
+//General comands
+$none: none;
+$auto: auto;
+$right: right;
+$left: left;
+$center: center;
+$absolute: absolute;
+$zero: 0;
+$solid: solid;
+
+//font
+$didot: didot;
+$normal: normal;
+$bold: bold;
+
+
+//dimensions 
+$px100: 100px;
+$percentage100: 100%;
+$pt10: 10pt;
+
+//Grid values
+$grid: grid;
+
+//Flex values
+$flex: flex;
+$direccton-row: row;
+$direccton-column: column;
+$nowrap: nowrap;
+$space-btw: space-between;
+$flex-start: flex-start;
+$space-evenly: space-evenly;
+
+
+
+//Colors
+$light-gray: #ededed;
+$primary-color: #67a580;
+$secondary-color: #495d63;
+$third-color: #f7f1ed;
+$forth-color: #d1acbc;
+$fiveth-color: #98b6b1;
+$white: white;
