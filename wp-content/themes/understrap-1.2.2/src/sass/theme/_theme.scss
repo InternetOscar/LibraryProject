@@ -1,0 +1,25 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+/* Target the menu item LI */
+.menu li.my-class{
+   /* Margin might go here */
+}
+ /* Target the menu item Anchor (link) */
+.menu li.my-class > a{
+   /* Colors, font sizes, would normally go here */
+}
+
+ /* Target the menu item LI in UberMenu */
+.launchpad .launchpad-item.my-class{
+   width: 90vw;
+   padding: 100%;
+   background-color: red !important;
+}
+ /* Target the menu item Anchor (link) or span (link disabled) in UberMenu */
+.launchpad .launchpad-item.my-class > .launchpad-target{
+   /* Colors, font sizes, would go here */
+   width: 90vw;
+   padding: 100%;
+   background-color: red !important;
+}
+
