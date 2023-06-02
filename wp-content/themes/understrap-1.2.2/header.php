@@ -10,7 +10,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-$bootstrap_version = get_theme_mod( 'understrap_bootstrap_version', 'bootstrap4' );
+$bootstrap_version = get_theme_mod( 'understrap_bootstrap_version', 'bootstrap5' );
 $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 ?>
 <!DOCTYPE html>
@@ -23,6 +23,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
+	<link rel="stylesheet" type="text/css" href="css/theme.css" />
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>

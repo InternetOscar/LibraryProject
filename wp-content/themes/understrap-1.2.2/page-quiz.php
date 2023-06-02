@@ -20,12 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <div class="wrapper" id="page-wrapper">
-	<div class="top">
-		<div class="back_box">
-			<a class="back_btn" href="">BACK</a>
-		</div>
-
-	</div>
+	
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
