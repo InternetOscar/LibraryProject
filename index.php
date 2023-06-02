@@ -11,6 +11,8 @@ get_header(); ?>
     <h1>Welcome!</h1>
     <p>Swipe up and select your course to start the quiz.</p>
 <p><strong>Learn and have fun!</strong></p>
+
+<a href="#privacy-text"><button type="button" id="button-privacy">Privacy</button></a>
 </section>
 <section id="courses">
     <h2>Choose your course:</h2>
@@ -58,5 +60,8 @@ get_header(); ?>
 
 </div>
 -->
+<?php 
+
+get_footer(); ?>
 </main>
 </div>

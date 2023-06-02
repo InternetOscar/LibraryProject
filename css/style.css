@@ -1,3 +1,7 @@
+@font-face {
+  font-family: roboto;
+  src: url(../);
+}
 .wrapper {
   display: grid;
   margin: auto;
@@ -12,9 +16,15 @@
 }
 
 #welcome-area {
-  padding: 20px 40px 20px 40px;
+  padding: 20px 40px 30px 40px;
   background-color: #233D4D;
   line-height: 21px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
 
 h1 {
@@ -31,13 +41,14 @@ p {
 
 h2 {
   text-align: center;
-  margin-top: 50px !important;
+  padding-top: 50px !important;
   margin-bottom: 30px !important;
   color: #233D4D;
 }
 
 #courses {
   margin: auto;
+  background-image: linear-gradient(#EBF4E1, #E2F3E1, #E4F4F1, #FFFFFF);
 }
 
 .row {
@@ -129,4 +140,27 @@ h2 {
 img {
   height: 70px !important;
   margin: 10px 10px 0px 10px;
+}
+
+#button-privacy {
+  border-radius: 30px;
+  background-color: #EBF4E1;
+  padding: 9px 25px 9px 25px;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#privacy-text {
+  color: #233D4D;
+  font-size: 11pt !important;
+  line-height: 12pt;
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 70px;
 }/*# sourceMappingURL=style.css.map */

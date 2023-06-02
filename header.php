@@ -12,7 +12,7 @@
   <div class="wrapper">
 <header>
 <div class="top">
-
+<img src='/wordpress2/wp-content/themes/library-nmtafe-prototype/img/logo-quiz.svg' id="logo">
 
 </div>
 </header>

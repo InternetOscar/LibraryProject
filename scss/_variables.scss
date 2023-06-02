@@ -1,6 +1,6 @@
 @font-face {
-    font-family: didot;
-    src: url(../fonts/Didot.ttc);
+    font-family: roboto;
+    src: url(../);
 }
 //General comands
 $none: none;
@@ -13,7 +13,7 @@ $zero: 0;
 $solid: solid;
 
 //font
-$didot: didot;
+
 $normal: normal;
 $bold: bold;
 
@@ -38,10 +38,10 @@ $space-evenly: space-evenly;
 
 
 //Colors
-$light-gray: #ededed;
-$primary-color: #67a580;
-$secondary-color: #495d63;
-$third-color: #f7f1ed;
-$forth-color: #d1acbc;
-$fiveth-color: #98b6b1;
+$primary-color: #233D4D;
+$secondary-color: #659794;
+$third-color: #EB5F59;
+$fourth-color: #FBC945;
+$fiveth-color: #A1BF80;
+$six-color: #66A5C8;
 $white: white;
