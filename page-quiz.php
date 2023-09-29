@@ -1,6 +1,6 @@
 
-<?php 
- get_header(); 
+<?php
+    get_header();
 ?>
 
 
@@ -14,7 +14,7 @@ if ( is_active_sidebar( 'p-gallery-products-widgets' ) ) : ?>
     <div id='p-gallery-products-widgets' class="chw-widget-area widget-area" role="complementary">
     <?php dynamic_sidebar( 'p-gallery-products-widgets' ); ?>
     </div>
-     
+
 <?php endif; ?>
 
 
@@ -25,7 +25,7 @@ if ( is_active_sidebar( 'p-gallery-products-pots-widgets' ) ) : ?>
     <div id='p-gallery-products-pots-widgets' class="chw-widget-area widget-area" role="complementary">
     <?php dynamic_sidebar( 'p-gallery-products-pots-widgets' ); ?>
     </div>
-     
+
 <?php endif; ?>
 
 
@@ -37,7 +37,7 @@ if ( is_active_sidebar( 'p-gallery-products-tools-widgets' ) ) : ?>
     <div id='p-gallery-products-tools-widgets' class="chw-widget-area widget-area" role="complementary">
     <?php dynamic_sidebar( 'p-gallery-products-tools-widgets' ); ?>
     </div>
-     
+
 <?php endif; ?>
 
 
@@ -47,7 +47,7 @@ if ( is_active_sidebar( 'p-gallery-products-fertilisers-gifts-widgets' ) ) : ?>
     <div id='p-gallery-products-fertilisers-gifts-widgets' class="chw-widget-area widget-area" role="complementary">
     <?php dynamic_sidebar( 'p-gallery-products-fertilisers-gifts-widgets' ); ?>
     </div>
-     
+
 <?php endif; ?>
 
 </main>
